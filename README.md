@@ -1,6 +1,4 @@
-## 
-
-The apache2 module parses access and error logs created by the Apache HTTP server.
+## Module that parses access and error logs created by the Apache HTTP server.
 
 When you run the module, it performs a few tasks under the hood:
 
