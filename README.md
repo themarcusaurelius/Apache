@@ -7,6 +7,26 @@ When you run the module, it performs a few tasks under the hood:
 - Uses ingest node to parse and process the log lines, shaping the data into a structure suitable for visualizing in Kibana
 - Deploys dashboards for visualizing the log data
 
+### Installation
+
+### Linux
+
+<i>If you haven't already installed filebeat...</i>
+
+1. Enter the following script into the console using elevated privileges
+
+```
+curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
+```
+
+2. When prompted, select the proper environment to complete the installation.
+
+**Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
+
+<hr>
+
+
+
 
 ## Example Dashboard
 
