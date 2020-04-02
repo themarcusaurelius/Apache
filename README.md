@@ -16,7 +16,7 @@ When you run the module, it performs a few tasks under the hood:
 1. Enter the following script into the console using elevated privileges
 
 ```
-curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
+curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-apache.sh > install-config-config.sh; chmod a+x  install-config-apache.sh; ./install-config-apachebeat.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
 2. When prompted, select the proper environment to complete the installation.
