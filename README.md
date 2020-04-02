@@ -1,4 +1,4 @@
-## Module that parses access and error logs created by the Apache HTTP server.
+## Parses access and error logs created by the Apache HTTP server.
 
 When you run the module, it performs a few tasks under the hood:
 
@@ -6,3 +6,11 @@ When you run the module, it performs a few tasks under the hood:
 - Makes sure each multiline log event gets sent as a single event
 - Uses ingest node to parse and process the log lines, shaping the data into a structure suitable for visualizing in Kibana
 - Deploys dashboards for visualizing the log data
+
+
+## Example Dashboard
+
+This module comes with a sample dashboard. For example:
+
+![Imgur](https://imgur.com/YXoWdq9.png)
+
