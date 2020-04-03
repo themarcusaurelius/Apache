@@ -37,6 +37,8 @@ filebeat modules enable apache2
 service filebeat restart
 ```
 
+**Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
+
 <hr>
 
 ## Example Dashboard
