@@ -25,13 +25,13 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 
 <i>If you have already installed filebeat...</i>
 
-Enable the module.
+1) Enable the module.
 
 ```
 filebeat modules enable apache2
 ```
 
-Restart Filebeat.
+2) Restart Filebeat.
 
 ```
 service filebeat restart
