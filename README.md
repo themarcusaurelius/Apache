@@ -7,7 +7,7 @@ When you run this module, it performs a few tasks under the hood:
 - Uses ingest node to parse and process the log lines, shaping the data into a structure suitable for visualizing in Kibana
 - Deploys dashboards for visualizing the log data
 
-### Installation
+## Installation
 
 ### Linux:
 
