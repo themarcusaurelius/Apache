@@ -13,13 +13,13 @@ When you run this module, it performs a few tasks under the hood:
 
 <i>If you haven't already installed filebeat...</i>
 
-Enter the following script into the console using elevated privileges
+1) Enter the following script into the console using elevated privileges
 
 ```
 curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-apache.sh > install-config-apache.sh; chmod a+x  install-config-apache.sh; ./install-config-apache.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
-When prompted, select the proper environment to complete the installation.
+2) When prompted, select the proper environment to complete the installation.
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
