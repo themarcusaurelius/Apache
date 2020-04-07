@@ -21,6 +21,8 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 
 2) When prompted, select the proper environment to complete the installation.
 
+<br>
+
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 <br>
