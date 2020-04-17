@@ -21,8 +21,6 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 
 2) When prompted, select the proper environment to complete the installation.
 
-<br>
-
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 <br>
@@ -40,8 +38,6 @@ filebeat modules enable apache2
 ```
 service filebeat restart
 ```
-
-<br>
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
@@ -98,8 +94,6 @@ This will install and run Filebeat with the module you enabled set to that parti
 ```
 restart-service filebeat
 ```
-
-<br>
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
