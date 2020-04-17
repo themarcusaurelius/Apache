@@ -47,8 +47,6 @@ service filebeat restart
 
 <hr>
 
-<br>
-
 ### Windows
 
 <i>If you haven't already installed filebeat...</i>
